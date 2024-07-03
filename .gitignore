@@ -1,0 +1,7 @@
+dist/
+
+.browserslistrc
+
+.editorconfig
+
+*.md
