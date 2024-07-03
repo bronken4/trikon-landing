@@ -1,0 +1,33 @@
+{
+        "header": {
+                "ta": "Ta",
+                "next": "ert nästa",
+                "step": "steg",
+                "production": "i produktionen",
+                "desc": "Svenska Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet repellendus reiciendis quam soluta aliquid. Explicabo maiores repellat mollitia quia voluptatum ducimus nemo a ad unde assumenda, aliquam ullam laudantium dolor."
+        },
+        
+        "egenskaper": {
+            "titleH1": "Egenskaper",
+            "title1": "Extrudern har en..1",
+            "text1": "Svenska detta är text 1 sit amet consectetur adipisicing elit. Nemo totam animi aut! Excepturi, autem voluptatum. Aspernatur velit suscipit sequi optio quam pariatur ut, expedita reiciendis labore, voluptatem mollitia inventore. Voluptas? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo totam animi aut! Excepturi, autem voluptatum. Aspernatur velit suscipit sequi optio quam pariatur ut, expedita reiciendis labore, voluptatem mollitia inventore. Voluptas? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo totam animi aut! Excepturi, autem voluptatum. Aspernatur velit suscipit sequi optio quam pariatur ut, expedita reiciendis labore, voluptatem mollitia inventore. Volupta",
+            "title2": "Extrudern har en...2",
+            "text2": "Svenska detta är text 2 sit amet consectetur adipisicing elit. Nemo totam animi aut! Excepturi, autem voluptatum. Aspernatur velit suscipit sequi optio quam pariatur ut, expedita reiciendis labore, voluptatem mollitia inventore. Voluptas? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo totam animi aut! Excepturi, autem voluptatum. Aspernatur velit suscipit sequi optio quam pariatur ut, expedita reiciendis labore, voluptatem mollitia inventore. Voluptas? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo totam animi aut! Excepturi, autem voluptatum. Aspernatur velit suscipit sequi optio quam pariatur ut, expedita reiciendis labore, voluptatem mollitia inventore. Volupta",
+            "title3": "Extrudern har en...3",
+            "text3": "Svenska detta är text 3 sit amet consectetur adipisicing elit. Nemo totam animi aut! Excepturi, autem voluptatum. Aspernatur velit suscipit sequi optio quam pariatur ut, expedita reiciendis labore, voluptatem mollitia inventore. Voluptas? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo totam animi aut! Excepturi, autem voluptatum. Aspernatur velit suscipit sequi optio quam pariatur ut, expedita reiciendis labore, voluptatem mollitia inventore. Voluptas? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo totam animi aut! Excepturi, autem voluptatum. Aspernatur velit suscipit sequi optio quam pariatur ut, expedita reiciendis labore, voluptatem mollitia inventore. Volupta"
+        },
+
+        "how": {
+            "titleH1": "Hur går det till?",
+            "title1": "Kontakta oss",
+            "text1": "Klicka på knappen nedan och fyll i dina uppgifter. Vi bokar därefter in ett digitaltmöte där vi håller en presentation av vad vi kan erbjuda er.",
+            "title2": "Skriva avtal",
+            "text2": "Efter att avtalen är påskrivna påbörjar vi er order och förbereder skrivaren inför leverans.",
+            "title3": "Leverans",
+            "text3": "Vi utför personlig leverans och montering av alla våra 3D printers, det gör att vi kan garantera er en smidig start med er nya printer.",
+            "title4": "Återkoppling",
+            "text4": "Efter att printern är levererad och ni har haft tid att komma igång med produktionen finns vi här för eventuella frågor som uppkommit"
+        
+        }
+
+}

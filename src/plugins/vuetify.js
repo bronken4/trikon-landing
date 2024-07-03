@@ -10,8 +10,7 @@ export default createVuetify({
     themes: {
       dark: {
         background: "#121212",
-        /* primary: "#FBC02D", */
-        primary: "#487955",
+        primary: "#FBC02D",
         secondary: "#3F51B5",
       }
     },

@@ -2,7 +2,7 @@
         <v-container class="mt-16 scroll-snap">
             <v-row>
                 <v-col class="text-center">
-                    <h2 class="text-h4">Egenskaper</h2>
+                    <h2 class="text-h4">{{ title }}</h2>
                 </v-col>
             </v-row>
             
@@ -19,12 +19,12 @@
                 <v-col>
                     <v-row>
                         <v-col>
-                            <h3>With a extruder of....</h3>
+                            <h3>{{ info[0].title }}</h3>
                         </v-col>
                     </v-row>
                     <v-row>
                         <v-col>
-                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo totam animi aut! Excepturi, autem voluptatum. Aspernatur velit suscipit sequi optio quam pariatur ut, expedita reiciendis labore, voluptatem mollitia inventore. Voluptas? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo totam animi aut! Excepturi, autem voluptatum. Aspernatur velit suscipit sequi optio quam pariatur ut, expedita reiciendis labore, voluptatem mollitia inventore. Voluptas? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo totam animi aut! Excepturi, autem voluptatum. Aspernatur velit suscipit sequi optio quam pariatur ut, expedita reiciendis labore, voluptatem mollitia inventore. Volupta</p>
+                            <p> {{ info[0].text }} </p>
                         </v-col>
                     </v-row>
                 </v-col>
@@ -34,12 +34,12 @@
                 <v-col>
                     <v-row>
                         <v-col>
-                            <h3>With a extruder of....</h3>
+                            <h3>{{ info[1].title }}</h3>
                         </v-col>
                     </v-row>
                     <v-row>
                         <v-col>
-                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo totam animi aut! Excepturi, autem voluptatum. Aspernatur velit suscipit sequi optio quam pariatur ut, expedita reiciendis labore, voluptatem mollitia inventore. Voluptas? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo totam animi aut! Excepturi, autem voluptatum. Aspernatur velit suscipit sequi optio quam pariatur ut, expedita reiciendis labore, voluptatem mollitia inventore. Voluptas? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo totam animi aut! Excepturi, autem voluptatum. Aspernatur velit suscipit sequi optio quam pariatur ut, expedita reiciendis labore, voluptatem mollitia inventore. Volupta</p>
+                            <p> {{ info[1].text }}</p>
                         </v-col>
                     </v-row>
                 </v-col>
@@ -67,12 +67,12 @@
                 <v-col>
                     <v-row>
                         <v-col>
-                            <h3>With a extruder of....</h3>
+                            <h3>{{ info[2].title }}</h3>
                         </v-col>
                     </v-row>
                     <v-row>
                         <v-col>
-                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo totam animi aut! Excepturi, autem voluptatum. Aspernatur velit suscipit sequi optio quam pariatur ut, expedita reiciendis labore, voluptatem mollitia inventore. Voluptas? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo totam animi aut! Excepturi, autem voluptatum. Aspernatur velit suscipit sequi optio quam pariatur ut, expedita reiciendis labore, voluptatem mollitia inventore. Voluptas? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo totam animi aut! Excepturi, autem voluptatum. Aspernatur velit suscipit sequi optio quam pariatur ut, expedita reiciendis labore, voluptatem mollitia inventore. Volupta</p>
+                            <p> {{ info[2].text }} </p>
                         </v-col>
                     </v-row>
                 </v-col>
@@ -156,13 +156,13 @@
 export default {
   data() {
     return {
-      title: "Egenskaper",
+      title: this.$t("egenskaper.titleH1"),
 
       info: [
-        { title: "With a extruder of... 1", text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo totam animi aut! Excepturi, autem voluptatum. Aspernatur velit suscipit sequi optio quam pariatur ut, expedita reiciendis labore, voluptatem mollitia inventore. Voluptas? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo totam animi aut! Excepturi, autem voluptatum. Aspernatur velit suscipit sequi optio quam pariatur ut, expedita reiciendis labore, voluptatem mollitia inventore. Voluptas? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo totam animi aut! Excepturi, autem voluptatum. Aspernatur velit suscipit sequi optio quam pariatur ut, expedita reiciendis labore, voluptatem mollitia inventore. Volupta" },
-        { title: "With a extruder of... 2", text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo totam animi aut! Excepturi, autem voluptatum. Aspernatur velit suscipit sequi optio quam pariatur ut, expedita reiciendis labore, voluptatem mollitia inventore. Voluptas? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo totam animi aut! Excepturi, autem voluptatum. Aspernatur velit suscipit sequi optio quam pariatur ut, expedita reiciendis labore, voluptatem mollitia inventore. Voluptas? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo totam animi aut! Excepturi, autem voluptatum. Aspernatur velit suscipit sequi optio quam pariatur ut, expedita reiciendis labore, voluptatem mollitia inventore. Volupta" },
-        { title: "With a extruder of... 3", text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo totam animi aut! Excepturi, autem voluptatum. Aspernatur velit suscipit sequi optio quam pariatur ut, expedita reiciendis labore, voluptatem mollitia inventore. Voluptas? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo totam animi aut! Excepturi, autem voluptatum. Aspernatur velit suscipit sequi optio quam pariatur ut, expedita reiciendis labore, voluptatem mollitia inventore. Voluptas? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo totam animi aut! Excepturi, autem voluptatum. Aspernatur velit suscipit sequi optio quam pariatur ut, expedita reiciendis labore, voluptatem mollitia inventore. Volupta" }
-      ]
+        { title: this.$t("egenskaper.title1"), text: this.$t("egenskaper.text1") },
+        { title: this.$t("egenskaper.title2"), text: this.$t("egenskaper.text2") },
+        { title: this.$t("egenskaper.title3"), text: this.$t("egenskaper.text3") }
+    ]
     };
   }
 };

@@ -4,12 +4,15 @@
         <v-col>
           <v-row class="mt-12">
             <h1 class="text-h3">
-              <span :style="{color: $vuetify.theme.themes.dark.primary}">Ta</span> ert nästa <br />
-              <span :style="{color: $vuetify.theme.themes.dark.primary}">Steg</span> i produktionen
+              <span :style="{color: $vuetify.theme.themes.dark.primary}">{{ $t("header.ta") }}</span> {{ $t("header.next") }} <br />
+              <span :style="{color: $vuetify.theme.themes.dark.primary}">{{ $t("header.step") }}</span> {{ $t("header.production") }}
             </h1>
           </v-row>
           <v-row class="py-3">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet repellendus reiciendis quam soluta aliquid. Explicabo maiores repellat mollitia quia voluptatum ducimus nemo a ad unde assumenda, aliquam ullam laudantium dolor.</p>
+            <p> {{ $t("header.desc") }}</p>
+          </v-row>
+          <v-row class="mt-8" justify="center">
+            <v-btn :style="{background: $vuetify.theme.themes.dark.secondary}">Intresserad</v-btn>
           </v-row>
           <v-row class="d-md-none">
             <v-col align="center">

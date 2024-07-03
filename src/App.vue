@@ -7,8 +7,8 @@
       <timeline-panel/>
       <sammarbeten-panel/>
       <specifikation-panel/>
+      <app-footer/>
     </v-main>
-    <app-footer/>
   </v-app>
 </template>
 
