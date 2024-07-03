@@ -2,10 +2,10 @@
     <v-container fluid>
         <v-row>
         <v-col class="text-start pl-12 d-none d-sm-block">
-            <h1>Trikon</h1>
+            <h1>Trikon Trading</h1>
         </v-col>
         <v-col class="text-center d-sm-none" cols="12">
-            <h1>Trikon</h1>
+            <h1>Trikon Trading</h1>
         </v-col>
         <v-col class="text-center align-center">
             <!-- <nav>
