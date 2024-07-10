@@ -7,7 +7,7 @@
         </v-row>
 
         <v-row justify="center">
-          <v-col md="8" sm="12">
+          <v-col md="8" sm="10">
             <v-timeline align="start">
         <v-timeline-item
             v-for="(item, i) in items"
