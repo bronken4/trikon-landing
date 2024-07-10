@@ -7,7 +7,7 @@
         </v-row>
 
         <v-row justify="center">
-          <v-col md="8" sm="10">
+          <v-col md="8" sm="12" class="d-none d-sm-block">
             <v-timeline align="start">
         <v-timeline-item
             v-for="(item, i) in items"
@@ -28,13 +28,31 @@
       </v-timeline>
           </v-col>
         </v-row>
-        <v-row class="mt-8" justify="center">
-          <form-panel1/>
-          </v-row>
-
     </v-container>
 
+    <v-container>
+      <v-row class="d-sm-none">
+        <v-col cols="12" md="4"  v-for="(item, i) in items"
+            :key="i"
+            :dot-color="item.color"
+            :icon="item.icon"
+            fill-dot>
+          <v-card class="bg-blue-grey-darken-4">
+                <v-card-title :class="['text-h6', `bg-${item.color}`]">
+                {{ item.title }}
+                </v-card-title>
+                <v-card-text class="text--primary">
+                <p class="mt-2">{{ item.text }}</p>
+                </v-card-text>
+            </v-card>
+    </v-col>
+      </v-row>
+      <v-row class="mt-8" justify="center">
+          <form-panel1/>
+          </v-row>
+    </v-container>
 </template>
+
 
 <script>
 export default {
