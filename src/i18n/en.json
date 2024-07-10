@@ -1,11 +1,17 @@
 {
+    "status": {
+            "text": "The printer is expected to be launched in the spring of 2025"
+        },
+    
     "header": {
             "ta": "Take",
             "next": "your next",
             "step": "step",
             "production": "in production",
-            "desc": "Engelska Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet repellendus reiciendis quam soluta aliquid. Explicabo maiores repellat mollitia quia voluptatum ducimus nemo a ad unde assumenda, aliquam ullam laudantium dolor."
-    },
+            "desc": "Engelska Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet repellendus reiciendis quam soluta aliquid. Explicabo maiores repellat mollitia quia voluptatum ducimus nemo a ad unde assumenda, aliquam ullam laudantium dolor.",
+            "intrested": "Interested",
+            "offers": "Get offers"
+        },
     
     "egenskaper": {
         "titleH1": "Properties",
@@ -28,6 +34,28 @@
         "title4": "Feedback",
         "text4": "After the printer has been delivered and you have had time to get started with production, we are here for any questions that may arise"
     
+    },
+
+    "modal": {
+        "title1": "Join the mailing list for exclusive offers",
+        "title2": "Contact us",
+        "name": "Name*",
+        "bus": "Company name",
+        "email": "Email address*",
+        "Message": "Message*",
+        "c1": "I want to buy a printer",
+        "c2": "I am interested and want to book a meeting",
+        "c3": "I have questions and would like you to contact me",
+        "c4": "Other",
+        "freetext": "Textfield",
+        "obli": "*Required fields",
+        "close": "Close",
+        "send": "Send"
+    },
+
+    "footer": {
+        "title": "Interested but not decided yet?",
+        "subtitle": "Join our email list for exclusive offers"
     }
 
 }

@@ -7,7 +7,7 @@
         </v-row>
 
         <v-row justify="center">
-          <v-col cols="8">
+          <v-col md="8" sm="12">
             <v-timeline align="start">
         <v-timeline-item
             v-for="(item, i) in items"
@@ -29,7 +29,7 @@
           </v-col>
         </v-row>
         <v-row class="mt-8" justify="center">
-          <v-btn :style="{background: $vuetify.theme.themes.dark.secondary}">Intresserad</v-btn>
+          <form-panel1/>
           </v-row>
 
     </v-container>

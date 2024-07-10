@@ -35,17 +35,14 @@
 
 <script>
 export default {
-  data() {
-    return {
-    };
-  },
   methods: {
     toggleLang() {
-      if (this.$i18n.locale === 'EN') {
-        this.$i18n.locale = 'SV';
+      if (localStorage.getItem('locale') === 'EN') {
+        localStorage.setItem('locale', 'SV');
       } else {
-        this.$i18n.locale = 'EN';
+        localStorage.setItem('locale', 'EN');
       }
+      location.reload();
     }
   }
 };

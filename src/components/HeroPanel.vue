@@ -12,7 +12,8 @@
             <p> {{ $t("header.desc") }}</p>
           </v-row>
           <v-row class="mt-8" justify="center">
-            <v-btn :style="{background: $vuetify.theme.themes.dark.secondary}">Intresserad</v-btn>
+            <form-panel-1/>
+            <form-panel-2/>
           </v-row>
           <v-row class="d-md-none">
             <v-col align="center">
@@ -23,15 +24,6 @@
             cover
             ></v-img>
         </v-col>
-          </v-row>
-
-          <v-row class="mt-5">
-            <v-col align="center" class="mr-n12">
-              <form-panel-1/>
-            </v-col>
-            <v-col class="ml-n12">
-              <form-panel-2/>
-            </v-col>
           </v-row>
         </v-col>
         <v-col class="d-none d-md-block">

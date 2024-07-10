@@ -1,11 +1,19 @@
 {
+        
+        "status": {
+            "text": "Printern förväntas lanseras under våren 2025"
+        },
+    
         "header": {
                 "ta": "Ta",
                 "next": "ert nästa",
                 "step": "steg",
                 "production": "i produktionen",
-                "desc": "Svenska Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet repellendus reiciendis quam soluta aliquid. Explicabo maiores repellat mollitia quia voluptatum ducimus nemo a ad unde assumenda, aliquam ullam laudantium dolor."
-        },
+                "desc": "Svenska Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet repellendus reiciendis quam soluta aliquid. Explicabo maiores repellat mollitia quia voluptatum ducimus nemo a ad unde assumenda, aliquam ullam laudantium dolor.",
+                "intrested": "Intresserad",
+                "offers": "Få erbjudande"
+        
+            },
         
         "egenskaper": {
             "titleH1": "Egenskaper",
@@ -28,6 +36,30 @@
             "title4": "Återkoppling",
             "text4": "Efter att printern är levererad och ni har haft tid att komma igång med produktionen finns vi här för eventuella frågor som uppkommit"
         
+        },
+
+        "modal": {
+            "title1": "Gå med i mejllistan för exklusiva erbjudanden",
+            "title2": "Kontakta oss",
+            "name": "Namn*",
+            "bus": "Företagsnamn",
+            "email": "Mejladress*",
+            "Message": "Meddelande*",
+            "c1": "Jag vill köpa en printer",
+            "c2": "Jag är intresserad och vill köpa en printer",
+            "c3": "Jag har frågor och vill gärna att ni Kontaktar mig",
+            "c4": "Annat",
+            "freetext": "Fritext",
+            "obli": "*Obligatoriska fält",
+            "close": "Stäng",
+            "send": "Skicka"
+        },
+
+        "footer": {
+            "title": "Intresserad men inte bestämt dig än?",
+            "subtitle": "Gå med i vår mejllista för exklusiva erbjudanden"
         }
+
+
 
 }

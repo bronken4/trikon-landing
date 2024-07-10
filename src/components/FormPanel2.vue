@@ -2,9 +2,9 @@
   <div class="pa-4 text-center">
     <v-dialog v-model="dialog" max-width="600">
       <template v-slot:activator="{ on, attrs }">
-        <v-btn  
-          
-         :style="{background: black}"
+        <v-btn 
+        variant="outlined" 
+        :style="{color: $vuetify.theme.themes.dark.primary}" 
         @click="dialog = true" 
         v-bind="attrs" 
         v-on="on">

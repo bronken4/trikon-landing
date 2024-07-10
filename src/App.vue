@@ -1,6 +1,7 @@
 <template>
   <v-app>
     <v-main>
+      <status-panel/>
       <navbar-panel/>
       <hero-panel/>
       <information/>
@@ -12,6 +13,13 @@
   </v-app>
 </template>
 
-<script setup>
-  //
+<script>
+export default {
+  mounted() {
+    const lang = localStorage.getItem('locale')
+    console.log(lang)
+    this.$i18n.locale = lang;
+  },
+}
+
 </script>

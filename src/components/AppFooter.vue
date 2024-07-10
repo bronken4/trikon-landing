@@ -3,12 +3,12 @@
       <v-col cols="12" class="text-center mb-5">
         <v-row>
           <v-col>
-            <h4 class="text-h7">Intresserad men inte bestämt dig än?</h4>
+            <h4 class="text-h7">{{ $t("footer.title") }}</h4>
           </v-col>
         </v-row>
         <v-row>
           <v-col class="text-center mt-n5">
-            <h5>Gå med i vår mejllista för exklusiva erbjudanden</h5>
+            <h5>{{ $t("footer.subtitle") }}</h5>
           </v-col>
         </v-row>
 
@@ -28,7 +28,9 @@
             </v-col>
           </v-row> -->
         </v-col>
-        <form-panel3 class="mt-n8"/>
+        <v-row class="mb-4" justify="center">
+          <form-panel-3/>
+          </v-row>
   </v-container>
 
   <v-footer>
@@ -42,7 +44,7 @@
 </template>
 
 <script>
-import FormPanel3 from './FormPanel3.vue';
+import FormPanel3 from './FormPanel2.vue';
 
   export default {
     components: {

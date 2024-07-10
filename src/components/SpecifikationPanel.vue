@@ -67,7 +67,7 @@
             answ: 'LAN printing | Cloud printing',
           },
           {
-            name: 'Nozzle Diamneter',
+            name: 'Nozzle Diameter',
             answ: '0,4mm (Default)',
           },
           {
