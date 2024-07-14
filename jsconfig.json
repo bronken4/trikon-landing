@@ -1,10 +1,10 @@
 {
   "compilerOptions": {
     "allowJs": true,
-    "target": "es5",
+    "target": "es6", // Consider using a more recent target
     "module": "esnext",
     "baseUrl": "./",
-    "moduleResolution": "bundler",
+    "moduleResolution": "bundler", // Ensure your bundler supports this
     "paths": {
       "@/*": [
         "src/*"
@@ -15,6 +15,17 @@
       "dom",
       "dom.iterable",
       "scripthost"
-    ]
-  }
+    ],
+    "strict": true, // Enable all strict type-checking options
+    "esModuleInterop": true, // Helps with CommonJS modules interop
+    "skipLibCheck": true // Speed up compilation by skipping type checking of all declaration files
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
 }
+
