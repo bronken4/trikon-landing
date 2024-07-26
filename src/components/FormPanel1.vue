@@ -67,7 +67,7 @@
             <v-card-actions>
               <v-spacer></v-spacer>
               <v-btn variant="plain" @click="dialog = false">{{ $t("modal.close") }}</v-btn>
-              <v-btn color="yellow-darken-2" type="submit" variant="tonal">{{ $t("modal.send") }}</v-btn>
+              <v-btn disabled color="yellow-darken-2" type="submit" variant="tonal">{{ $t("modal.send") }}</v-btn>
             </v-card-actions>
           </v-card>
         </v-form>
