@@ -17,7 +17,14 @@
 export default {
   mounted() {
     const lang = localStorage.getItem('locale')
-    console.log(lang)
+
+    if(lang == null) {
+      localStorage.setItem('locale', 'SV')
+      location.reload();
+    }
+    else {
+      console.log('not null')
+    }
     this.$i18n.locale = lang;
   },
 }
